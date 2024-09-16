@@ -1,0 +1,82 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 22</title>
+</head>
+<body>
+    <h1>Formulario Completo </h1>
+    <form action="">
+        <fieldset><!-- fieldsetPermite organizar en grupos los campos de un formulario -->
+            <legend>Descripcion</legend>
+            <label for="descripcion">Introduce una descripcion</label>
+            <textarea name="descripcion" id="descripcion"></textarea>
+        </fieldset>
+
+        <fieldset><!-- fieldsetPermite organizar en grupos los campos de un formulario -->
+            <legend>Email</legend>
+            <label for="email">Introduce una email</label>
+            <input type="email" name="email" id="email"></textarea>
+        </fieldset>
+
+        <fieldset><!-- fieldsetPermite organizar en grupos los campos de un formulario -->
+            <legend>Radio</legend>
+            <label for="edad">Edad:</label>
+
+            <input type="radio" name="edad" id="mayor">
+            <label for="mayor">Mayor de edad</label>
+
+            <input type="radio" name="edad" id="menor">
+            <label for="menor">Menor de edad</label>
+            
+            <input type="radio" name="edad" id="anciano">
+            <label for="anciano">Mayor de 65 años</label>
+           
+        </fieldset>
+
+        <fieldset><!-- fieldsetPermite organizar en grupos los campos de un formulario -->
+            <legend>Select</legend>
+            <label for="comidas">Hortalizas</label>
+            <select name="" id="comidas">
+                <option value="">Tomate</option>
+                <option value="">Lechuga</option>
+                <option value="">Pimiento</option>
+                <option value="">Cebolla</option>
+            </select>
+        </fieldset>
+
+        <fieldset><!-- fieldsetPermite organizar en grupos los campos de un formulario -->
+            <legend>Checkbox</legend>
+            <label for="vegano">Vegano</label>
+            <input type="checkbox" name="vegano" id="vegano">
+        </fieldset>
+
+        <fieldset><!-- fieldsetPermite organizar en grupos los campos de un formulario -->
+            <legend>Fichero</legend>
+            <label for="fichero">Sube tu archivo</label>
+            <input type="file" name="fichero" id="fichero">
+        </fieldset>
+
+        <fieldset><!-- fieldsetPermite organizar en grupos los campos de un formulario -->
+            <legend>Fecha</legend>
+            <label for="fecha">Fecha: </label>
+            <input type="date" name="fecha" id="fecha">
+        </fieldset>
+
+        <fieldset><!-- fieldsetPermite organizar en grupos los campos de un formulario -->
+            <legend>Numero</legend>
+            <label for="numero">Numero: </label>
+            <input type="number" name="numero" id="numero">
+        </fieldset>
+
+        <fieldset><!-- fieldsetPermite organizar en grupos los campos de un formulario -->
+            <legend>Color</legend>
+            <label for="color">Color: </label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+    <input type="submit" value="Enviar Formulario">
+    </form>
+</body>
+</html>
